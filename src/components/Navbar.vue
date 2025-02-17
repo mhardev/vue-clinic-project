@@ -3,7 +3,6 @@
 import MenuButton from './MenuButton.vue'
 import GetStartButton from './GetStartButton.vue'
 import { ref, onMounted } from 'vue'
-import { Collapse } from 'flowbite'
 
 const Links = ref([
   { name: 'Home', link: '#home' },
@@ -12,25 +11,23 @@ const Links = ref([
   { name: 'Contact', link: '#contact' },
 ])
 
-let collapse
-
 onMounted(() => {
   const $targetMenu = document.getElementById('targetMenu')
   const $openMenu = document.getElementById('openMenu')
 
-  const options = {
-    onCollapse: () => {
-      console.log('element has been collapsed')
-    },
-    onExpand: () => {
-      console.log('element has been expanded')
-    },
-    onToggle: () => {
-      console.log('element has been toggled')
-    },
-  }
+  if ($targetMenu && $openMenu) {
+    $openMenu.addEventListener('click', () => {
+      $targetMenu.classList.toggle('hidden')
+    })
 
-  collapse = new Collapse($targetMenu, $openMenu, options)
+    // Add event listeners to each link
+    const links = $targetMenu.querySelectorAll('a')
+    links.forEach((link) => {
+      link.addEventListener('click', () => {
+        $targetMenu.classList.add('hidden')
+      })
+    })
+  }
 })
 </script>
 
@@ -45,10 +42,9 @@ onMounted(() => {
       </a>
       <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
         <GetStartButton />
-        <MenuButton :collapse="collapse" />
+        <MenuButton />
       </div>
       <div
-        @click="collapse.toggle()"
         class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
         id="targetMenu"
       >

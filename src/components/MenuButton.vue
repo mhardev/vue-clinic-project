@@ -1,21 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
-<script setup>
-import { defineProps } from 'vue'
-
-const props = defineProps({
-  collapse: Object,
-})
-
-const toggleMenu = () => {
-  if (props.collapse) {
-    props.collapse.toggle()
-  }
-}
-</script>
+<script setup></script>
 
 <template>
   <button
-    @click="toggleMenu"
+    id="openMenu"
     data-collapse-toggle="targetMenu"
     type="button"
     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
