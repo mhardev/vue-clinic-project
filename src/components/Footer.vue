@@ -2,34 +2,17 @@
 <script setup></script>
 
 <template>
-  <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+  <footer class="p-4 bg-green-700 md:p-8 lg:p-10 dark:bg-gray-800">
     <div class="mx-auto max-w-screen-xl text-center">
-      <a
-        href="#"
-        class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
-      >
-        <img
+      <a href="#" class="flex justify-center items-center text-2xl font-semibold text-white">
+        <!-- <img
           src="https://flowbite.com/docs/images/logo.svg"
           class="h-8"
           alt="Flowbite Logo"
-        />&nbsp; Medical Clinic
+        /> -->&nbsp; Medical Clinic
       </a>
-      <p class="my-6 text-gray-500 dark:text-gray-400">
-        Open-source library of over 400+ web components and interactive elements built for better
-        web.
-      </p>
-      <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
-        <li>
-          <a href="#" class="mr-4 hover:underline md:mr-6">About</a>
-        </li>
-        <li>
-          <a href="#" class="mr-4 hover:underline md:mr-6">Services</a>
-        </li>
-        <li>
-          <a href="#" class="mr-4 hover:underline md:mr-6">Contact</a>
-        </li>
-      </ul>
-      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+      <br />
+      <span class="text-sm text-white sm:text-center"
         >© {{ new Date().getFullYear() }} <a href="#" class="hover:underline">Medical Clinic</a>.
         All Rights Reserved.</span
       >

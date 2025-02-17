@@ -6,10 +6,10 @@ import { ref, onMounted } from 'vue'
 import { Collapse } from 'flowbite'
 
 const Links = ref([
-  { name: 'Home', link: '#' },
-  { name: 'About', link: '#' },
-  { name: 'Service', link: '#' },
-  { name: 'Contact', link: '#' },
+  { name: 'Home', link: '#home' },
+  { name: 'About', link: '#about' },
+  { name: 'Service', link: '#service' },
+  { name: 'Contact', link: '#contact' },
 ])
 
 let collapse
@@ -36,7 +36,7 @@ onMounted(() => {
 
 <template>
   <nav
-    class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    class="bg-opacity-90 bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
   >
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -58,7 +58,7 @@ onMounted(() => {
           <li v-for="link in Links" :key="link.name">
             <a
               :href="link.link"
-              class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-600 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >{{ link.name }}</a
             >
           </li>
