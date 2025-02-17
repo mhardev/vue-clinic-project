@@ -57,4 +57,7 @@
       </p>
     </div>
   </section>
+  <!-- borderline dotted -->
+  <div class="mx-8 md:mx-32 lg:mx-64 xl:mx-64 border-t-4 border-dotted border-green-700"></div>
+  <!-- end of borderline dotted -->
 </template>

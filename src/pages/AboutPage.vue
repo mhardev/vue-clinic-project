@@ -1,9 +1,6 @@
 <script setup></script>
 
 <template>
-  <!-- borderline dotted -->
-  <div class="mx-64 border-t-4 border-dotted border-green-700"></div>
-  <!-- end of borderline dotted -->
   <section class="bg-white dark:bg-gray-900" id="about">
     <div
       class="gap-16 items-center py-8 px-4 mx-8 max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
@@ -67,4 +64,7 @@
       </div>
     </div>
   </section>
+  <!-- borderline dotted -->
+  <div class="mx-8 md:mx-32 lg:mx-64 xl:mx-64 border-t-4 border-dotted border-green-700"></div>
+  <!-- end of borderline dotted -->
 </template>

@@ -1,9 +1,6 @@
 <script setup></script>
 
 <template>
-  <!-- borderline dotted -->
-  <div class="mx-64 border-t-4 border-dotted border-green-700"></div>
-  <!-- end of borderline dotted -->
   <section class="bg-white dark:bg-gray-900" id="contact">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2
@@ -65,7 +62,7 @@
     </div>
   </section>
   <!-- borderline dotted -->
-  <div class="mx-64 border-t-4 border-dotted border-green-700"></div>
+  <div class="mx-8 md:mx-32 lg:mx-64 xl:mx-64 border-t-4 border-dotted border-green-700"></div>
   <!-- end of borderline dotted -->
   <section class="bg-white dark:bg-gray-900 mb-8">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
