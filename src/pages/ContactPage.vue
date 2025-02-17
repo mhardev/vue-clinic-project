@@ -2,7 +2,7 @@
 
 <template>
   <!-- borderline dotted -->
-  <div class="mx-64 border-t-4 border-dotted border-green-600"></div>
+  <div class="mx-64 border-t-4 border-dotted border-green-700"></div>
   <!-- end of borderline dotted -->
   <section class="bg-white dark:bg-gray-900" id="contact">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -57,7 +57,7 @@
         </div>
         <button
           type="submit"
-          class="py-3 px-5 text-white text-sm font-medium text-center rounded-lg bg-green-600 sm:w-fit hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:green-blue-800"
+          class="py-3 px-5 text-white text-sm font-medium text-center rounded-lg bg-green-700 sm:w-fit hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-700 dark:hover:bg-green-700 dark:focus:green-blue-800"
         >
           Send message
         </button>
@@ -65,7 +65,7 @@
     </div>
   </section>
   <!-- borderline dotted -->
-  <div class="mx-64 border-t-4 border-dotted border-green-600"></div>
+  <div class="mx-64 border-t-4 border-dotted border-green-700"></div>
   <!-- end of borderline dotted -->
   <section class="bg-white dark:bg-gray-900 mb-8">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">

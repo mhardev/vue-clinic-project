@@ -2,7 +2,7 @@
 
 <template>
   <!-- borderline dotted -->
-  <div class="mx-64 border-t-4 border-dotted border-green-600"></div>
+  <div class="mx-64 border-t-4 border-dotted border-green-700"></div>
   <!-- end of borderline dotted -->
   <section class="bg-white dark:bg-gray-900" id="about">
     <div

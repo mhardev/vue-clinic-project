@@ -2,9 +2,8 @@
 
 <template>
   <!-- borderline dotted -->
-  <div class="mx-64 border-t-4 border-dotted border-green-600"></div>
+  <div class="mx-64 border-t-4 border-dotted border-green-700"></div>
   <!-- end of borderline dotted -->
-  <div class="mx-64 border-t-4 border-dotted border-green-600"></div>
   <section class="bg-white dark:bg-gray-900" id="service">
     <div class="py-8 px-4 mx-8 max-w-screen-xl sm:py-16 lg:px-6">
       <div class="max-w-screen-md mb-8 lg:mb-16">
