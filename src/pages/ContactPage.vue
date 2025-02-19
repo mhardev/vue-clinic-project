@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import emailjs from '@emailjs/browser'
 import { toast } from 'vue3-toastify'
 import 'vue3-toastify/dist/index.css'
+import 'material-symbols'
 
 const form = ref(null)
 
@@ -41,8 +42,8 @@ const sendEmail = () => {
         Contact Us
       </h2>
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-        Got a technical issue? Want to send feedback about a beta feature? Need details about our
-        Business plan? Let us know.
+        Have a medical concern? Need an appointment? Want to learn more about our services? Get in
+        touch with us today, and our friendly staff will be happy to assist you.
       </p>
       <form ref="form" class="space-y-8" @submit.prevent="sendEmail">
         <div>
@@ -115,16 +116,16 @@ const sendEmail = () => {
   <div class="mx-8 md:mx-32 lg:mx-64 xl:mx-64 border-t-4 border-dotted border-green-700"></div>
   <!-- end of borderline dotted -->
   <section class="bg-white dark:bg-gray-900 mb-8">
-    <div class="py-14 lg:pt-20 px-4 mx-auto max-w-screen-md">
+    <div class="pt-14 lg:pt-20 px-4 mx-auto max-w-screen-md">
       <h2
         class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
       >
         CV Medical Clinic
       </h2>
       <p class="mb-8 lg:mb-4 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Visit our address at 123 Health Street, Medical City, CV 45678.
       </p>
-      <div class="mapouter py-0 px-4 mx-auto max-w-screen-md">
+      <div class="mapouter py-0 px-4 mx-auto max-w-screen-md mb-8 lg:mb-4">
         <div class="gmap_canvas">
           <iframe
             class="gmap_iframe"
@@ -136,6 +137,15 @@ const sendEmail = () => {
           ></iframe>
         </div>
       </div>
+      <p class="pt-0 lg:pt-6 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+        📞 <strong class="text-gray-900 dark:text-white">Phone:</strong> (123) 456-7890 <br />
+        ✉️
+        <strong class="text-gray-900 dark:text-white">Email:</strong> contact@cvmedicalclinic.com
+        <br />
+        🕒 <strong class="text-gray-900 dark:text-white">Opening Hours:</strong> Mon - Fri: 8 AM - 6
+        PM | Sat: 9 AM - 3 PM | Sun: Closed
+        <br />
+      </p>
     </div>
   </section>
 </template>

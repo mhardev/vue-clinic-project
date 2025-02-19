@@ -19,9 +19,7 @@ toast('Welcome to CV Medical Clinic', {
         <p
           class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus delectus totam earum
-          dolorem a repudiandae nisi saepe placeat, repellendus recusandae quae praesentium numquam
-          reprehenderit! Non vero iure sapiente in optio.
+          Providing quality healthcare services with a commitment to excellence and patient care.
         </p>
         <a
           href="#about"
@@ -53,14 +51,13 @@ toast('Welcome to CV Medical Clinic', {
   <section class="bg-white dark:bg-gray-900">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum officiis mollitia assumenda
-        vero excepturi iusto molestias quisquam impedit tempora. Delectus exercitationem vero atque
-        nobis debitis explicabo cumque asperiores non nam.
+        At CV Medical Clinic, we are dedicated to providing top-quality healthcare services with a
+        patient-centered approach. Our team of experienced professionals ensures personalized
+        treatment in a comfortable and welcoming environment.
       </p>
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum officiis mollitia assumenda
-        vero excepturi iusto molestias quisquam impedit tempora. Delectus exercitationem vero atque
-        nobis debitis explicabo cumque asperiores non nam.
+        Your health is our priority. With state-of-the-art medical technology and a compassionate
+        team, we strive to deliver exceptional healthcare solutions tailored to your needs.
       </p>
     </div>
   </section>
