@@ -19,7 +19,7 @@ import 'material-symbols'
           <div
             class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
           >
-            <span class="material-symbols-outlined"> clinical_notes </span>
+            <span class="material-symbols-outlined dark:text-white"> clinical_notes </span>
           </div>
           <h3 class="mb-2 text-xl font-bold dark:text-white">General Consultation</h3>
           <p class="text-gray-500 dark:text-gray-400">
@@ -30,7 +30,7 @@ import 'material-symbols'
           <div
             class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
           >
-            <span class="material-symbols-outlined"> stethoscope </span>
+            <span class="material-symbols-outlined dark:text-white"> stethoscope </span>
           </div>
           <h3 class="mb-2 text-xl font-bold dark:text-white">Clinic Checkup</h3>
           <p class="text-gray-500 dark:text-gray-400">
@@ -42,7 +42,7 @@ import 'material-symbols'
           <div
             class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
           >
-            <span class="material-symbols-outlined"> respiratory_rate </span>
+            <span class="material-symbols-outlined dark:text-white"> respiratory_rate </span>
           </div>
           <h3 class="mb-2 text-xl font-bold dark:text-white">Specialized Treatment</h3>
           <p class="text-gray-500 dark:text-gray-400">
@@ -53,7 +53,7 @@ import 'material-symbols'
           <div
             class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
           >
-            <span class="material-symbols-outlined"> wc </span>
+            <span class="material-symbols-outlined dark:text-white"> wc </span>
           </div>
           <h3 class="mb-2 text-xl font-bold dark:text-white">Women's/Men's Health Checkup</h3>
           <p class="text-gray-500 dark:text-gray-400">
@@ -65,7 +65,7 @@ import 'material-symbols'
           <div
             class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
           >
-            <span class="material-symbols-outlined"> badge </span>
+            <span class="material-symbols-outlined dark:text-white"> badge </span>
           </div>
           <h3 class="mb-2 text-xl font-bold dark:text-white">Pre-Employment Medical Exam</h3>
           <p class="text-gray-500 dark:text-gray-400">
@@ -76,7 +76,7 @@ import 'material-symbols'
           <div
             class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
           >
-            <span class="material-symbols-outlined"> stethoscope_arrow </span>
+            <span class="material-symbols-outlined dark:text-white"> stethoscope_arrow </span>
           </div>
           <h3 class="mb-2 text-xl font-bold dark:text-white">Annual Physical Exam</h3>
           <p class="text-gray-500 dark:text-gray-400">
