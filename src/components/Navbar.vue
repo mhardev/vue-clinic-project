@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import MenuButton from './MenuButton.vue'
-import GetStartButton from './GetStartButton.vue'
+/* import GetStartButton from './GetStartButton.vue' */
 import { ref, onMounted } from 'vue'
 
 const Links = ref([
@@ -41,7 +41,7 @@ onMounted(() => {
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
       </a>
       <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <GetStartButton />
+        <!-- <GetStartButton /> -->
         <MenuButton />
       </div>
       <div
