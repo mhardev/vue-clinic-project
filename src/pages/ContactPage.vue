@@ -133,7 +133,7 @@ const sendEmail = () => {
             scrolling="no"
             marginheight="0"
             marginwidth="0"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.074006609081!2d121.03708787575009!3d14.708406785790816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0e6dec442af%3A0xe6850fa9dfba5de6!2sPadron%20Medical%20Clinic!5e0!3m2!1sen!2sph!4v1739930536234!5m2!1sen!2sph&amp;output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12096.689984922346!2d-73.97974415717466!3d40.714219030689634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259604365c077%3A0xc0adea6f72045500!2s277%20Bedford%20Ave%2C%20Brooklyn%2C%20NY%2011211%2C%20USA!5e0!3m2!1sen!2sph!4v1740041248027!5m2!1sen!2sph"
           ></iframe>
         </div>
       </div>

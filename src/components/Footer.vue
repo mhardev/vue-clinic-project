@@ -9,12 +9,11 @@
           src="https://flowbite.com/docs/images/logo.svg"
           class="h-8"
           alt="Flowbite Logo"
-        /> -->&nbsp; Medical Clinic
+        /> -->&nbsp; CV Medical Clinic
       </a>
       <br />
       <span class="text-sm text-white sm:text-center"
-        >© {{ new Date().getFullYear() }} <a href="#" class="hover:underline">Medical Clinic</a>.
-        All Rights Reserved.</span
+        >Copyright © {{ new Date().getFullYear() }} CVMC. All Rights Reserved.</span
       >
     </div>
   </footer>
