@@ -1,5 +1,5 @@
 {
-  "name": "vue-clinic-project",
+  "name": "vue-cvmc",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -7,31 +7,26 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --fix",
-    "format": "prettier --write src/"
+    "lint": "eslint . --fix"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "emailjs": "^4.0.3",
     "flowbite": "^3.1.2",
     "material-symbols": "^0.28.2",
-    "posthog-js": "^1.219.6",
     "vue": "^3.5.13",
-    "vue-clinic-project": "file:",
-    "vue-i18n": "^11.0.0-rc.1",
-    "vue-router": "^4.5.0",
+    "vue-cvmc": "file:",
     "vue3-toastify": "^0.2.8"
   },
   "devDependencies": {
-    "@eslint/js": "^9.18.0",
-    "@vitejs/plugin-vue": "^1.7.1",
-    "@vue/eslint-config-prettier": "^10.1.0",
+    "@eslint/js": "^9.20.0",
+    "@vitejs/plugin-vue": "^5.2.1",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.18.0",
+    "eslint": "^9.20.1",
     "eslint-plugin-vue": "^9.32.0",
-    "postcss": "^8.5.2",
-    "prettier": "^3.4.2",
+    "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
-    "vite": "^6.0.11",
-    "vite-plugin-vue-devtools": "^7.7.1"
+    "vite": "^6.1.0",
+    "vite-plugin-vue-devtools": "^7.7.2"
   }
 }
