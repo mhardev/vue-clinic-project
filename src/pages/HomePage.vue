@@ -1,4 +1,11 @@
-<script setup></script>
+<script setup>
+import { toast } from 'vue3-toastify'
+import 'vue3-toastify/dist/index.css'
+
+toast('Welcome to CV Medical Clinic', {
+  autoClose: 5000,
+})
+</script>
 
 <template>
   <section class="bg-white dark:bg-gray-900" id="home">

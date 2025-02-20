@@ -35,10 +35,7 @@ onMounted(() => {
     class="bg-opacity-90 bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
   >
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a
-        href="https://vue-clinic.vercel.app/"
-        class="flex items-center space-x-3 rtl:space-x-reverse"
-      >
+      <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img :src="logoImage" class="h-8" alt="CVMC Logo" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
           >CVMC</span
