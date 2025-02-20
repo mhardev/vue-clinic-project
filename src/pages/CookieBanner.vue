@@ -1,4 +1,19 @@
-<script setup></script>
+<script setup>
+import { getCurrentInstance } from 'vue'
+
+const { proxy } = getCurrentInstance()
+
+function acceptCookies() {
+  proxy.$posthog.opt_in_capturing()
+  proxy.$emit('hideBanner')
+  console.log('Cookies accepted')
+}
+function declineCookies() {
+  proxy.$posthog.opt_out_capturing()
+  proxy.$emit('hideBanner')
+  console.log('Cookies declined')
+}
+</script>
 <template>
   <div class="banner">
     <p>
