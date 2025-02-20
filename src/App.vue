@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage.vue'
 import AboutPage from './pages/AboutPage.vue'
 import ServicePage from './pages/ServicePage.vue'
 import ContactPage from './pages/ContactPage.vue'
-import CookieBanner from './pages/CookieBanner.vue'
+/* import CookieBanner from './pages/CookieBanner.vue'
 import { ref, getCurrentInstance } from 'vue'
 
 const { proxy } = getCurrentInstance()
@@ -19,7 +19,7 @@ console.log('Show banner:', showBanner.value)
 
 function hideBanner() {
   showBanner.value = false
-}
+} */
 </script>
 
 <template>
@@ -31,7 +31,7 @@ function hideBanner() {
       <ServicePage />
       <ContactPage />
     </main>
-    <CookieBanner v-if="showBanner" @hideBanner="hideBanner" />
+    <!-- <CookieBanner v-if="showBanner" @hideBanner="hideBanner" /> -->
     <Footer />
   </div>
 </template>

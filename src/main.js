@@ -1,11 +1,11 @@
 import './assets/index.css'
 import { createApp } from 'vue'
 import App from './App.vue'
-import posthogPlugin from './plugins/posthog' // Import plugin, not `posthog-js`
+/* import posthogPlugin from './plugins/posthog' // Import plugin, not `posthog-js`
 
 const app = createApp(App)
 
 // Use PostHog plugin (ensures it's globally available)
-app.use(posthogPlugin)
+app.use(posthogPlugin) */
 
-app.mount('#app')
+createApp(App).mount('#app')
