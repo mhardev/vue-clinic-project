@@ -1,6 +1,7 @@
 <script setup>
 import { toast } from 'vue3-toastify'
 import 'vue3-toastify/dist/index.css'
+import homeImage from '@/assets/images/cvmc-home.jpg'
 
 toast('Welcome to CV Medical Clinic', {
   autoClose: 5000,
@@ -41,10 +42,7 @@ toast('Welcome to CV Medical Clinic', {
         </a>
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-        <img
-          src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
-          alt="mockup"
-        />
+        <img class="rounded-lg" :src="homeImage" alt="Home Image" />
       </div>
     </div>
   </section>

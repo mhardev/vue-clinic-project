@@ -14,6 +14,7 @@
     "@emailjs/browser": "^4.4.1",
     "flowbite": "^3.1.2",
     "material-symbols": "^0.28.2",
+    "posthog-js": "^1.219.6",
     "vue": "^3.5.13",
     "vue-clinic-project": "file:",
     "vue-router": "^4.5.0",

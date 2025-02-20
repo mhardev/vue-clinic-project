@@ -1,33 +1,28 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import logoImage from '@/assets/images/logo.png'
 
+// Define reactive state for menu visibility
+const isMenuOpen = ref(false)
+
+// Toggle menu function
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value
+}
+
+// Close menu when a link is clicked (for mobile)
+const closeMenu = () => {
+  isMenuOpen.value = false
+}
+
+// Navigation links
 const Links = ref([
   { name: 'Home', link: '#home' },
   { name: 'About', link: '#about' },
   { name: 'Service', link: '#service' },
   { name: 'Contact', link: '#contact' },
 ])
-
-onMounted(() => {
-  const $targetMenu = document.getElementById('targetMenu')
-  const $openMenu = document.getElementById('openMenu')
-
-  if ($targetMenu && $openMenu) {
-    $openMenu.addEventListener('click', () => {
-      $targetMenu.classList.toggle('hidden')
-    })
-
-    // Add event listeners to each link
-    const links = $targetMenu.querySelectorAll('a')
-    links.forEach((link) => {
-      link.addEventListener('click', () => {
-        $targetMenu.classList.add('hidden')
-      })
-    })
-  }
-})
 </script>
 
 <template>
@@ -41,12 +36,12 @@ onMounted(() => {
           >CVMC</span
         >
       </a>
+
+      <!-- Toggle Button for Mobile -->
       <button
-        id="openMenu"
-        data-collapse-toggle="targetMenu"
+        @click="toggleMenu"
         type="button"
         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-        aria-controls="targetMenu"
         aria-expanded="false"
       >
         <span class="sr-only">Open main menu</span>
@@ -66,13 +61,19 @@ onMounted(() => {
           />
         </svg>
       </button>
-      <div class="justify-between hidden w-full md:flex md:w-auto md:order-1" id="targetMenu">
+
+      <!-- Navigation Menu -->
+      <div
+        :class="{ hidden: !isMenuOpen, flex: isMenuOpen }"
+        class="justify-between w-full md:flex md:w-auto md:order-1"
+      >
         <ul
           class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
         >
           <li v-for="link in Links" :key="link.name">
             <a
               :href="link.link"
+              @click="closeMenu"
               class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >{{ link.name }}</a
             >

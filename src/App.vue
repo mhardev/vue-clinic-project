@@ -5,6 +5,8 @@ import HomePage from './pages/HomePage.vue'
 import AboutPage from './pages/AboutPage.vue'
 import ServicePage from './pages/ServicePage.vue'
 import ContactPage from './pages/ContactPage.vue'
+/* import CookieBanner from './pages/CookieBanner.vue' */
+/* import { ref, onMounted, inject } from 'vue' */
 </script>
 
 <template>
@@ -17,5 +19,6 @@ import ContactPage from './pages/ContactPage.vue'
       <ContactPage />
     </main>
     <Footer />
+    <!-- <CookieBanner /> -->
   </div>
 </template>
